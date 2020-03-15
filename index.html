@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel='stylesheet' href='portfolio.css'>
   </head>
-  <body class='container'>
+  <body>
 	<nav class='navbar navbar-expand-lg navbar-light fixed-top' style="background-color: #e3f2fd;">
     	<a class='navbar-brand' href='#'>About me</a>
         <button type='button' class='navbar-toggler' data-toggle='collapse' data-target='#mainNav' aria-controls="mainNav" aria-expanded="false" aria-label="ナビゲーションの切替">
@@ -23,6 +23,32 @@
     	  </div>
     	</div>
 	</nav>
+	
+	<footer class='container-fluid'>
+    	<div class='row justify-content-center'>
+    	    <h2 class='col-sm-6'>Contact me</h2>
+    	    <div class='w-100'></div>
+    	    <p  class='col-lg-5' id='footer_message'>ご覧頂きありがとうございました。<br>
+    	    初めての制作物で、拙い所があったかと思われますが本サイトを通じて私に少しでも興味をもって頂けましたら幸いです。<br><br>
+    	    サイトの感想や私についての問い合わせがございましたら下記フォームをご利用くださいませ。</p>
+    	</div>
+    	<form action='mailto:haine.taro@gmail.com'>
+    	    <div class='row justify-content-center'>
+    	        <div class='col'>
+    	          <input type='text' class='form-control col-sm-5 offset-sm-6' placeholder="Name" required>
+    	        </div>
+    	        <div class='col'>
+    	          <input type='email' class='form-control col-sm-5 offset-sm-1' placeholder="Email" required>
+    	        </div>
+    	    </div>
+    	    <div class="row">
+                <textarea class="form-control col-sm-6 offset-sm-3" rows="2" style='margin-top:20px; margin-bottom:20px' placeholder="Comment" required></textarea>
+            </div> 
+            <div class='row'>
+                <button class='btn btn-lg btn-primary col-2 offset-5'>Send</button>
+            </div>
+    	</form>
+	</footer>
 	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

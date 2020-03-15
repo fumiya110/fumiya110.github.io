@@ -1,3 +1,8 @@
+
+html, body {
+    width: 100%;
+}
+
 body {
     padding-top:4.5rem;
 }
@@ -14,3 +19,20 @@ a {
 .navbar-nav a{
     margin-left: 30px;
 }
+
+div {
+    text-align: center;
+}
+
+footer {
+    margin-top:-20px;
+    background-color: #EEEEEE;
+    padding-bottom: 20px;
+}
+
+#footer_message {
+    line-height: 1.8em;
+    letter-spacing: 0.1em;
+}
+
+
