@@ -16,23 +16,80 @@
         </button>
     	<div class='collapse navbar-collapse' id='mainNav'>
     	  <div class="navbar-nav">
-    		<a class='nav-item nav-link' href='#' id='intro'>Introduction</a>
-    		<a class='nav-item nav-link' href='#' id='life'>Life</a> 
-    		<a class='nav-item nav-link' href='#' id='skill'> Language Experience</a>
-    		<a class='nav-item nav-link' href='#' id='contact'>Contact</a>
+    		<a class='nav-item nav-link' href='#' id='intro-btn'>Introduction</a>
+    		<a class='nav-item nav-link' href='#' id='life-btn'>Life</a> 
+    		<a class='nav-item nav-link' href='#' id='skill-btn'> Language Experience</a>
+    		<a class='nav-item nav-link' href='#' id='contact-btn'>Contact</a>
     	  </div>
     	</div>
 	</nav>
 	
+    <div class='container-fluid' id='top'>
+        <div class='row'>
+            <h1 class='col-sm-6 offset-sm-3'>Thank you for visiting!</h1>
+            <br>
+            <div id='top_image' class='carousel slide col-sm-6 offset-sm-3' data-ride='carousel'>
+                <ol class='carousel-indicators'>
+                    <li data-target='#top_image' data-slide-to='0' class='active'></li>
+                    <li data-target='#top_image' data-slide-to='1'></li>
+                    <li data-target='#top_image' data-slide-to='2'></li>
+                    <li data-target='#top_image' data-slide-to='3'></li>
+                </ol>
+                <div class='carousel-inner'>
+                    <div class='carousel-item active'><img src='./images/アンコールワット.JPG'></div>
+                    <div class='carousel-item'><img src='./images/タイ.JPG'></div>
+                    <div class='carousel-item'><img src='./images/タイ２.JPG'></div>
+                    <div class='carousel-item'><img src='./images/桜島.JPG'></div>
+                </div>
+                <a class='carousel-control-prev' href='#top_image' role='button' data-slide='prev'>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">前へ</span>
+                </a>
+                <a class='carousel-control-next' href='#top_image' role='button' data-slide='next'>
+                    <span class='carousel-control-next-icon' aria-hidden='true'></span>
+                    <span class='sr-only'>次へ</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+	<div class='container-fluid' id='intro'>
+	    <div class='row'>
+	        <h1 class='col-sm-6 offset-sm-3' style='margin-bottom:60px;'>My brief introduction</h1>
+	        <div class='col-sm-4 offset-sm-2' style='padding-bottom:20px;'>
+	            <img class='img-fluid rounded-circle' src='./images/my_face.jpg' id='my_face'>
+	        </div>
+	        <div class='col-sm-4'>
+    	        <ul class='text-left' id='intro_list'>
+    	            <li>名前：伊藤　郁也</li>
+    	            <li>出身：東京都</li>
+    	            <li>学歴：青山学院大学　国際政治経済学部</li>
+    	            <li>趣味：旅行（国内、海外どちらも）<br>
+    	            お菓子作り</li>
+    	            <li>好きな言葉：諸行無常</li>
+    	        </ul>
+	        </div>
+	    </div>
+	</div>
+    
+    <div id='life'>
+        
+    </div>
+
+    <div id='skill'>
+        
+    </div>
+
 	<footer class='container-fluid'>
     	<div class='row justify-content-center'>
-    	    <h2 class='col-sm-6'>Contact me</h2>
+    	    <h1 class='col-sm-6'>Contact me</h1>
     	    <div class='w-100'></div>
     	    <p  class='col-lg-5' id='footer_message'>ご覧頂きありがとうございました。<br>
     	    初めての制作物で、拙い所があったかと思われますが本サイトを通じて私に少しでも興味をもって頂けましたら幸いです。<br><br>
     	    サイトの感想や私についての問い合わせがございましたら下記フォームをご利用くださいませ。</p>
     	</div>
-    	<form action='mailto:haine.taro@gmail.com'>
+    	<br>
+    	<form>
     	    <div class='row justify-content-center'>
     	        <div class='col'>
     	          <input type='text' class='form-control col-sm-5 offset-sm-6' placeholder="Name" required>
@@ -42,8 +99,9 @@
     	        </div>
     	    </div>
     	    <div class="row">
-                <textarea class="form-control col-sm-6 offset-sm-3" rows="2" style='margin-top:20px; margin-bottom:20px' placeholder="Comment" required></textarea>
+                <textarea class="form-control col-sm-6 offset-sm-3 col-xs-2 offset-xs-5" rows="2" style='margin-top:20px; margin-bottom:20px' placeholder="Comment" required></textarea>
             </div> 
+            <br>
             <div class='row'>
                 <button class='btn btn-lg btn-primary col-2 offset-5'>Send</button>
             </div>
