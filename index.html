@@ -23,7 +23,7 @@
     	  </div>
     	</div>
 	</nav>
-	
+
     <div class='container-fluid' id='top'>
         <div class='row'>
             <h1 class='col-sm-6 offset-sm-3'>Thank you for visiting!</h1>
@@ -36,10 +36,10 @@
                     <li data-target='#top_image' data-slide-to='3'></li>
                 </ol>
                 <div class='carousel-inner'>
-                    <div class='carousel-item active'><img src='./images/アンコールワット.JPG'></div>
-                    <div class='carousel-item'><img src='./images/タイ.JPG'></div>
-                    <div class='carousel-item'><img src='./images/タイ２.JPG'></div>
-                    <div class='carousel-item'><img src='./images/桜島.JPG'></div>
+                    <div class='carousel-item active'><img src='./images/カルーセル/アンコールワット.JPG'></div>
+                    <div class='carousel-item'><img src='./images/カルーセル/タイ.JPG'></div>
+                    <div class='carousel-item'><img src='./images/カルーセル/タイ２.JPG'></div>
+                    <div class='carousel-item'><img src='./images/カルーセル/桜島.JPG'></div>
                 </div>
                 <a class='carousel-control-prev' href='#top_image' role='button' data-slide='prev'>
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -72,13 +72,90 @@
 	    </div>
 	</div>
     
-    <div id='life'>
+    <div class='container-fluid justify-content-center' id='skill'>
+        <h1>My Programming Level</h1><br>
+        <div class='row'>
+            <div class='progress mt-4 col-6 offset-3' style='height: 20px;'>
+                <div id='html' class='progress-bar progress-bar-striped progress-bar-animated' role='progressbar' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'></div>
+                <span class='ml-2'>HTML</span>
+            </div>            
+            <div class='progress mt-4 col-6 offset-3' style='height:20px;'>
+                <div id='python' class='progress-bar progress-bar-striped progress-bar-animated' role='progressbar' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'></div>
+                <span class='ml-2'>Python</span>
+            </div>
+            <div class='progress mt-4 col-6 offset-3' style='height:20px;'>
+                <div id='ruby' class='progress-bar progress-bar-striped progress-bar-animated' role='progressbar' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'></div>
+                <span class='ml-2'>Ruby</span>
+            </div>
+            <div class='progress mt-4 col-6 offset-3' style='height:20px;'>
+                <div id='css' class='progress-bar progress-bar-striped progress-bar-animated' role='progressbar' aria-valuenow='0' aira-vakuemin='0' aira-valuemax='100'></div>
+                <span class='ml-2'>CSS</span>
+            </div>
+            <div class='progress mt-4 col-6 offset-3' style='height: 20px;'>
+                <div id='sql' class='progress-bar progress-bar-striped progress-bar-animated' role='progressbar' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'></div>
+                <span class='ml-2'>SQL</span>
+            </div>
+            <div class='progress mt-4 col-6 offset-3' style='height:20px;'>
+                <div id='javascript' class='progress-bar progress-bar-striped progress-bar-animated' role='progressbar' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'></div>
+                <span class='ml-2'>Javascript</span>
+            </div>
+        </div>
         
+        <div class='card-deck' style='margin-top:60px;'>
+            <div class='card text-white mb-2' style='background-color:orange'>
+                <img class='card-img-top img-fluid' src='./images/language/html.png' alt='HTML'>
+                <div class='card-body'>
+                    <h5 class='card-title'>HTML5</h5>
+                    <p class='card-text'>学習期間は1か月程。エンジニアを志望し始めた際に最初に学び始めました。 </p>
+                </div>
+            </div>            
+            <div class='card text-white mb-2' style='background-color:#FFCC00'>
+                <img class='card-img-top img-fluid' src='./images/language/python.png' alt='Python'>
+                <div class='card-body'>
+                    <h5 class='card-title'>Python</h5>
+                    <p class='card-text'>機械学習に興味を抱き、2ヵ月学習 <br>
+                    scikit-learn,pandasなど各種ライブラリを用いながらデータ分析について学習(タイタニック課題に挑戦)</p>
+                </div>
+            </div>
+            <div class='card text-white mb-2' style='background-color:red'>
+                <img class='card-img-top img-fluid' src='./images/language/ruby.jpg' alt='Ruby'>
+                <div class='card-body'>
+                    <h5 class='card-title'>Ruby</h5>
+                    <p class='card-text'>学習期間は、2ヶ月ほど。Webアプリケーションの作成に興味があるため現在はチュートリアルを用いてRuby on Railsを学習中</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class='row'>
+            <div class='d-none d-sm-block' id='adjust'></div>
+        </div>
+        
+        <div class='card-deck' >
+            <div class='card text-white mb-2' style='background-color:blue'>
+                <img class='card-img-top img-fluid' src='./images/language/css.png' alt='CSS'>
+                <div class='card-body'>
+                    <h5 class='card-title'>CSS3</h5>
+                    <p class='card-text'>HTMLと共に初めに学習に取り組みました。学習期間もHTMLと同様に1ヵ月程となります。</p>
+                </div>
+            </div>            
+            <div class='card text-white mb-2 bg-primary'>
+                <img class='card-img-top img-fluid' src='./images/language/sql.png' alt='SQL'>
+                <div class='card-body'>
+                    <h5 class='card-title'>SQL</h5>
+                    <p class='card-text'>機械学習の前処理やRailsのデータベース関連の理解のために必要性を感じ基本的な操作について学習</p>
+                </div>
+            </div>
+            <div class='card text-white mb-2' style='background-color:#33FF66'>
+                <img class='card-img-top img-fluid' src='./images/language/jQuery.png' alt='jQuery'>
+                <div class='card-body'>
+                    <h5 class='card-title'>jQuery</h5>
+                    <p class='card-text'>ポートフォリオ作成に辺り学習。簡単なアニメーションやオプションを付けたりできるレベル。学習期間は1週間ほど</p>
+                </div>
+            </div>
+        </div>
     </div>
+        
 
-    <div id='skill'>
-        
-    </div>
 
 	<footer class='container-fluid'>
     	<div class='row justify-content-center'>
@@ -99,7 +176,7 @@
     	        </div>
     	    </div>
     	    <div class="row">
-                <textarea class="form-control col-sm-6 offset-sm-3 col-xs-2 offset-xs-5" rows="2" style='margin-top:20px; margin-bottom:20px' placeholder="Comment" required></textarea>
+                <textarea class="form-control col-sm-6 offset-sm-3 col-xs-10 offset-xs-1" rows="2" style='margin-top:20px; margin-bottom:20px' placeholder="Comment" required></textarea>
             </div> 
             <br>
             <div class='row'>

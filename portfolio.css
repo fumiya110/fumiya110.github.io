@@ -18,8 +18,8 @@ a {
 }
 
 img {
-    width: 600px;
-    height: 400px;
+    width: 700px;
+    height: 500px;
 }
 
 .navbar-nav a{
@@ -30,17 +30,18 @@ img {
     margin-top: -20px;
     padding-top:80px;
     background-color: #FFFFCC;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 
 h1 {
     font-weight: bold;
+    text-align:center;
 }
 
 #intro {
-    padding-top: 80px;
+    padding-top: 120px;
     background-color: #D9E5FF;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 
 #my_face {
@@ -48,17 +49,32 @@ h1 {
     height: 350px;
 }
 
+#skill {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-color:#FFCCCC;
+}
 
+.card-img-top {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 30%;
+}
 
-div {
+.card-body {
     text-align: center;
 }
 
+#adjust {
+    min-width: 1px;
+    padding-top:60px;
+}
+
 footer {
-    padding-top: 80px;
+    padding-top: 120px;
     background-color: #EEEEEE;
-    padding-bottom: 20px;
-    padding-bottom: 80px;
+    padding-bottom: 120px;
 }
 
 #footer_message {
