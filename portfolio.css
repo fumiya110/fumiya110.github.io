@@ -6,20 +6,16 @@ body {
     padding-top:4.5rem;
 }
 
-li {
-    list-style: none;
-    line-height: 3em;
-    letter-spacing: 0.1em;
-}
-
 a {
     text-decoration: none;
     margin-left: 20px;
 }
 
 img {
-    width: 700px;
-    height: 500px;
+    /* width: 700px;
+    height: 500px; */
+    width: 400px;
+    height: 400px;
 }
 
 .navbar-nav a{
@@ -44,9 +40,31 @@ h1 {
     padding-bottom: 150px;
 }
 
+#intro_list {
+    list-style: none;
+    line-height: 3em;
+    letter-spacing: 0.1em;
+}
+
 #my_face {
     width: 350px;
     height: 350px;
+}
+
+#life {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+p {
+    letter-spacing: 0.1em;
+    line-height: 2em;
+}
+
+
+.media img {
+    width: 180px;
+    height: 180px;
 }
 
 #skill {
