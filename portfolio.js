@@ -13,10 +13,20 @@ $('#skill-btn').on('click', function(){
     let offset = $('#skill').offset().top;
     $('html').animate({scrollTop:offset}, 1000);
     $.each(lang_level, function(property, value){
-       $(property).delay(900).animate({'width': value}, 1200, 'linear');
-       $(property).dequeue();
+      $(property).delay(1300).animate({'width': value}, 1200, 'linear');
     });
 });
+
+// $('#skill-btn').on('click', function(){
+//     $.when(
+//       let offset = $('#skill').offset().top;
+//       $('html').animate({scrollTop:offset}, 1000);
+//     ).done(function(){ 
+// 　    $.each(lang_level, function(property, value){
+//       $(property).animate({'width': value}, 1200, 'linear');
+//       });
+//     });
+// });
 
 $('#contact-btn').on('click', function(){
    let offset = $('footer').offset().top;
